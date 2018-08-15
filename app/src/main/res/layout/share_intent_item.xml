@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/categoryCell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/paddingS"
+    android:paddingTop="@dimen/paddingS">
+
+    <ImageView
+        android:id="@+id/shareImage"
+        android:layout_width="@dimen/iconSizeL"
+        android:layout_height="@dimen/iconSizeL"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/marginM" />
+
+    <TextView
+        android:id="@+id/shareName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/marginS"
+        android:layout_toRightOf="@+id/shareImage"
+        android:text="CCTV Mudik"
+        android:textSize="@dimen/fontM" />
+
+</RelativeLayout>

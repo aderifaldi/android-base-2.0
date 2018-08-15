@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidBase</string>
+    <string name="anim_duration_slide">300</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBz6b_sHuaTJDVidioPvtpjD0c_-vKwOGo</string>
+
+    <string name="alertMessageNeedGPSAccess">Aplication needs GPS access</string>
+    <string name="labelOk">Ok</string>
+    <string name="labelNoInternetConnection">No internet connection!</string>
+    <string name="labelTitleShare">Share</string>
+    <string name="alertMessageNoData">Data not found</string>
+</resources>
